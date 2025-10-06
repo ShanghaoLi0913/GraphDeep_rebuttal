@@ -1,0 +1,66 @@
+{
+  "statistics": {
+    "truthful": {
+      "count": 168,
+      "tus": {
+        "mean": 0.8992424011230469,
+        "std": 0.07922260758979477,
+        "median": 0.9009819030761719
+      },
+      "ntus": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "fgas": {
+        "mean": 0.08447665259951637,
+        "std": 0.03257928165737551,
+        "median": 0.07891845703125
+      }
+    },
+    "hallucinated": {
+      "count": 132,
+      "tus": {
+        "mean": 0.9008903503417969,
+        "std": 0.056624477679444826,
+        "median": 0.90545654296875
+      },
+      "ntus": {
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0
+      },
+      "fgas": {
+        "mean": 0.07495001590613162,
+        "std": 0.023439743918745128,
+        "median": 0.073699951171875
+      }
+    },
+    "statistical_tests": {
+      "tus_t_test": {
+        "t_statistic": -0.2012094959752012,
+        "p_value": 0.8406720344055626
+      },
+      "ntus_t_test": {
+        "t_statistic": NaN,
+        "p_value": NaN
+      },
+      "fgas_t_test": {
+        "t_statistic": 2.8231237674593017,
+        "p_value": 0.005076017559437422
+      }
+    },
+    "effect_sizes": {
+      "tus_cohens_d": -0.0234782377678407,
+      "ntus_cohens_d": NaN,
+      "fgas_cohens_d": 0.32941843385800523
+    }
+  },
+  "plots": {
+    "kde_plot": "experiment_records/rq1_20250623_104910/rq1_kde_distributions.png",
+    "box_plot": "experiment_records/rq1_20250623_104910/rq1_boxplots.png",
+    "bar_plot": "experiment_records/rq1_20250623_104910/rq1_mean_comparison.png",
+    "scatter_plot": "experiment_records/rq1_20250623_104910/rq1_scatter_tus_fgas.png"
+  },
+  "timestamp": "2025-06-23 10:49:12"
+}

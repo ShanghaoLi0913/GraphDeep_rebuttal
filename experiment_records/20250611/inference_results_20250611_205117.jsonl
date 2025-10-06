@@ -1,0 +1,4 @@
+{"config": {"timestamp": "20250611_205117", "model": "meta-llama/Llama-2-7b-chat-hf", "num_samples": 3, "data_source": "trimming_results_20250609_141823.jsonl", "device": "cuda", "batch_size": 2}}
+{"question": "what movies did Temuera Morrison act in", "answer": "tracker, once were warriors, django unchained", "golden_answers": ["once were warriors", "tracker", "river queen"], "metrics": {"hit_at_1": true}}
+{"question": "what movies did Evelyn Venable act in", "answer": "death takes a holiday, alice adams", "golden_answers": ["alice adams", "death takes a holiday", "the little colonel"], "metrics": {"hit_at_1": true}}
+{"question": "what does Tom Cullen act in", "answer": "tom cullen acts in weekend", "golden_answers": ["weekend"], "metrics": {"hit_at_1": false}}

@@ -1,0 +1,1 @@
+{"config": {"timestamp": "20250609_101048", "model_name": "meta-llama/Llama-2-7b-chat-hf", "batch_size": 8, "user_topk": 20, "total_samples": 9992}}

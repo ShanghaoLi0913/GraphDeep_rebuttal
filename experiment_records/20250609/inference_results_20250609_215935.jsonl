@@ -1,0 +1,3 @@
+{"timestamp": "20250609_215935", "model": "meta-llama/Llama-2-7b-chat-hf", "num_samples": 2, "batch_size": 1, "debug_mode": true, "stats": {"样本数量": 2, "正确率": 50.0, "平均ECS分数": 0.0}}
+{"sample_id": 0, "question": "what movies did Temuera Morrison act in", "predicted_answers": ["temuera morrison acted in the following movies"], "golden_answers": ["once were warriors", "tracker", "river queen"], "is_correct": false, "ecs_score": 0.0}
+{"sample_id": 1, "question": "what movies did Evelyn Venable act in", "predicted_answers": ["evelyn venable acted in the little colonel death takes a holiday and alice adams", "evelyn venable did not act in alice adams 1"], "golden_answers": ["alice adams", "death takes a holiday", "the little colonel"], "is_correct": true, "ecs_score": 0.0}
