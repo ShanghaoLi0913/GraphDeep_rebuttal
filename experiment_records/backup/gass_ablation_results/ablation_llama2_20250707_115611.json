@@ -1,0 +1,99 @@
+{
+  "timestamp": "2025-07-07T11:55:50.247803",
+  "model_name": "meta-llama/Llama-2-7b-chat-hf",
+  "num_samples": 2,
+  "variants": {
+    "original": {
+      "name": "original",
+      "description": "Original GASS implementation",
+      "correct_scores": [
+        0.18795340401785715,
+        0.15476481119791666
+      ],
+      "hallucination_scores": [],
+      "statistics": {
+        "correct_mean": 0.17135910760788692,
+        "correct_std": 0.016594296409970247,
+        "hallucination_mean": 0.0,
+        "hallucination_std": 0.0,
+        "difference": 0.17135910760788692,
+        "is_fixed": null,
+        "num_correct": 2,
+        "num_hallucination": 0
+      }
+    },
+    "MultiLayer-Norm-Contrast": {
+      "name": "MultiLayer-Norm-Contrast",
+      "description": "Multi-layer fusion with normalization and contrast",
+      "correct_scores": [
+        0.47958855072602885,
+        0.4831708288905729
+      ],
+      "hallucination_scores": [],
+      "statistics": {
+        "correct_mean": 0.48137968980830087,
+        "correct_std": 0.0017911390822720197,
+        "hallucination_mean": 0.0,
+        "hallucination_std": 0.0,
+        "difference": 0.48137968980830087,
+        "is_fixed": null,
+        "num_correct": 2,
+        "num_hallucination": 0
+      }
+    },
+    "Rank-Based-TopK": {
+      "name": "Rank-Based-TopK",
+      "description": "Rank-based top-K similarity aggregation",
+      "correct_scores": [
+        0.5817540486653646,
+        0.5974273681640625
+      ],
+      "hallucination_scores": [],
+      "statistics": {
+        "correct_mean": 0.5895907084147136,
+        "correct_std": 0.00783665974934894,
+        "hallucination_mean": 0.0,
+        "hallucination_std": 0.0,
+        "difference": 0.5895907084147136,
+        "is_fixed": null,
+        "num_correct": 2,
+        "num_hallucination": 0
+      }
+    }
+  },
+  "sample_results": [
+    {
+      "question": "who is the writer of Killers",
+      "predicted_answer": "takuji ushiyama",
+      "golden_answers": [
+        "timo tjahjanto",
+        "takuji ushiyama"
+      ],
+      "is_correct": true,
+      "output_text": " ans: Takuji Ushiyama",
+      "answer_start_idx": 343,
+      "answer_end_idx": 350,
+      "variant_scores": {
+        "original": 0.18795340401785715,
+        "MultiLayer-Norm-Contrast": 0.47958855072602885,
+        "Rank-Based-TopK": 0.5817540486653646
+      }
+    },
+    {
+      "question": "who wrote Kidnap Syndicate",
+      "predicted_answer": "fernando di leo",
+      "golden_answers": [
+        "fernando di leo"
+      ],
+      "is_correct": true,
+      "output_text": " ans: Fernando Di Leo",
+      "answer_start_idx": 342,
+      "answer_end_idx": 345,
+      "variant_scores": {
+        "original": 0.15476481119791666,
+        "MultiLayer-Norm-Contrast": 0.4831708288905729,
+        "Rank-Based-TopK": 0.5974273681640625
+      }
+    }
+  ]
+}

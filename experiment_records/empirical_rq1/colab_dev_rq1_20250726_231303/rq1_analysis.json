@@ -1,0 +1,4559 @@
+{
+  "evaluation_method": "SQuAD",
+  "has_prd_variants": false,
+  "truthful": {
+    "count": 4638,
+    "prd": {
+      "mean": 0.7277983793311718,
+      "std": 0.03380519867607516,
+      "median": 0.727142333984375
+    },
+    "gass": {
+      "mean": 0.3942214739927653,
+      "std": 0.06486273187424485,
+      "median": 0.3756134380187307
+    }
+  },
+  "hallucinated": {
+    "count": 362,
+    "prd": {
+      "mean": 0.7339655971000207,
+      "std": 0.038421911080807836,
+      "median": 0.7333564758300781
+    },
+    "gass": {
+      "mean": 0.35596294338371265,
+      "std": 0.050908314653097,
+      "median": 0.35485235787928104
+    }
+  },
+  "semantic_drift": {
+    "truthful": {
+      "drift_slope": {
+        "mean": -0.010705116303904543,
+        "std": 0.026871666814505573,
+        "median": -0.001515550676224039
+      },
+      "drift_gap": {
+        "mean": 0.011925631629305867,
+        "std": 0.02791294155057633,
+        "median": 0.0
+      },
+      "early_late_ratio": {
+        "mean": 1.0341651418380555,
+        "std": 0.08091624458969544,
+        "median": 1.0
+      }
+    },
+    "hallucinated": {
+      "drift_slope": {
+        "mean": -0.003522309082636354,
+        "std": 0.014712495583400886,
+        "median": 0.0
+      },
+      "drift_gap": {
+        "mean": 0.005237710862030496,
+        "std": 0.018161826703228242,
+        "median": 0.0
+      },
+      "early_late_ratio": {
+        "mean": 1.0158580166103341,
+        "std": 0.05983447981791099,
+        "median": 1.0
+      }
+    },
+    "truthful_raw": [
+      {
+        "drift_slope": -0.0342175580279157,
+        "drift_gap": 0.03421755802791571,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.094552987806083,
+        "segment_sas_scores": [
+          0.3961052024256994,
+          0.3618876443977837
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.033019993342795255,
+        "drift_gap": -0.03301999334279526,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9160389330036591,
+        "segment_sas_scores": [
+          0.360257444927901,
+          0.3932774382706963
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.2484638018513628
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.00633871351786874,
+        "drift_gap": 0.023369645434767272,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0591184060124919,
+        "segment_sas_scores": [
+          0.4186720057492393,
+          0.38461014191544224,
+          0.4059945787135018
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.015957999592871273,
+        "drift_gap": -0.033227303736317104,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9161628455536209,
+        "segment_sas_scores": [
+          0.33716609749663196,
+          0.3890422606510366,
+          0.4089341738956317,
+          0.38372879172467117
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.008220345666921125,
+        "drift_gap": 0.03323800143655126,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.091658121717563,
+        "segment_sas_scores": [
+          0.39033753543092753,
+          0.38042598632206476,
+          0.416841031055073,
+          0.4011445554805171,
+          0.30638997586816136,
+          0.3803560171497329
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3314628544751927
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0014651754807158068,
+        "drift_gap": -0.007433302337704728,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.981829711888599,
+        "segment_sas_scores": [
+          0.39669708758843736,
+          0.4066184182378216,
+          0.4316574716503452,
+          0.40587054959677654,
+          0.38974514450538084
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3768477770849766
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.03710615566403368,
+        "drift_gap": 0.03710615566403369,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1028054352115866,
+        "segment_sas_scores": [
+          0.39804189400962336,
+          0.3609357383455897
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.46676579340585667
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.04315875455287569,
+        "drift_gap": 0.04315875455287571,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1154033686141422,
+        "segment_sas_scores": [
+          0.417140511508164,
+          0.3739817569552883
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5060743791543764
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.010944505321853974,
+        "drift_gap": 0.022309592861063432,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0600232705283625,
+        "segment_sas_scores": [
+          0.39399198645075645,
+          0.3712618113723375,
+          0.3721029758070485
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.01841566412749778,
+        "drift_gap": -0.01841566412749779,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9557956882191461,
+        "segment_sas_scores": [
+          0.3981876803334406,
+          0.4166033444609384
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.452418692965784
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.009748882914856368,
+        "drift_gap": 0.009748882914856372,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0276950320919354,
+        "segment_sas_scores": [
+          0.3617572460932896,
+          0.3520083631784332
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4408773862662373
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.014570571742993569,
+        "drift_gap": 0.018079166091391152,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0476301491463431,
+        "segment_sas_scores": [
+          0.40687887354173763,
+          0.3884274527337419,
+          0.4070428131745364,
+          0.3521051809181609
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": 0.004668080006470508,
+        "drift_gap": -0.00466808000647051,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9874550893117652,
+        "segment_sas_scores": [
+          0.3674413851369067,
+          0.3721094651433772
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.013260291952063626,
+        "drift_gap": 0.00695135930403018,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0184874646614925,
+        "segment_sas_scores": [
+          0.3829552858191197,
+          0.3955731511151866,
+          0.35643470191499244
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.012362732782517087,
+        "drift_gap": 0.026603012607117393,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0695959744298014,
+        "segment_sas_scores": [
+          0.42730306410135643,
+          0.3904015639437292,
+          0.37240619003496267,
+          0.3920924127958883
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.039509532917594174,
+        "drift_gap": 0.03950953291759418,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1110425137889508,
+        "segment_sas_scores": [
+          0.3953149948930559,
+          0.3558054619754617
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3744516723610813
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.048713769262850086,
+        "drift_gap": 0.04871376926285009,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1203492249319948,
+        "segment_sas_scores": [
+          0.4534838813294343,
+          0.4047701120665842
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.38210496658626786
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.056783114010078135,
+        "drift_gap": 0.06540168346798458,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.202755008777807,
+        "segment_sas_scores": [
+          0.38796675282050697,
+          0.37072961390469417,
+          0.27440052480035065
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3713203917841315
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.05292325848451171,
+        "drift_gap": 0.05292325848451174,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1821587091390702,
+        "segment_sas_scores": [
+          0.34345703935417704,
+          0.2905337808696653
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4072222152740976
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.41722575649178756
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.06070405136522131,
+        "drift_gap": 0.060704051365221334,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1610631187917282,
+        "segment_sas_scores": [
+          0.4376000895185504,
+          0.37689603815332906
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.005182428407976001,
+        "drift_gap": -0.005182428407976003,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.985461963435607,
+        "segment_sas_scores": [
+          0.35129132133268554,
+          0.35647374974066154
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.007799754102668173,
+        "drift_gap": 0.004228348004193361,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0119719093416017,
+        "segment_sas_scores": [
+          0.37362974061813475,
+          0.3664419558530099,
+          0.33218067724884104,
+          0.3853100965145868,
+          0.36496620408676134,
+          0.30929102910605755
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.07416691305605326,
+        "drift_gap": -0.07416691305605327,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.7736157910471866,
+        "segment_sas_scores": [
+          0.2534483097509064,
+          0.32761522280695965
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.008864691225747175,
+        "drift_gap": -0.008864691225747179,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9780447299205818,
+        "segment_sas_scores": [
+          0.3948967379746759,
+          0.40376142920042307
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.006802736389097616,
+        "drift_gap": 0.006802736389097619,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.016785996178202,
+        "segment_sas_scores": [
+          0.4120653324768712,
+          0.4052625960877736
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.02617060650732443,
+        "drift_gap": -0.026170606507324445,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9368841321751936,
+        "segment_sas_scores": [
+          0.3884732447024441,
+          0.41464385120976854
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.07941598028460455,
+        "drift_gap": 0.07941598028460456,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.2173908862498577,
+        "segment_sas_scores": [
+          0.44473019218458276,
+          0.3653142118999782
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.018623542155177024,
+        "drift_gap": 0.01862354215517703,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0456558474436024,
+        "segment_sas_scores": [
+          0.4265349751470248,
+          0.4079114329918478
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.01598753752590206,
+        "drift_gap": 0.02127468852489567,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.061480650306288,
+        "segment_sas_scores": [
+          0.3673134571278329,
+          0.3567391551298457,
+          0.3353383820760288
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.004770108689756523,
+        "drift_gap": 0.004770108689756525,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0095993200742204,
+        "segment_sas_scores": [
+          0.5016916253049735,
+          0.49692151661521694
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0035966962933303144,
+        "drift_gap": -0.003596696293330315,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9910567186243895,
+        "segment_sas_scores": [
+          0.39857071209649897,
+          0.4021674083898293
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.04475860819148024,
+        "drift_gap": -0.044758608191480254,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.8694689652808159,
+        "segment_sas_scores": [
+          0.29813768683729186,
+          0.3428962950287721
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.011033123401734176,
+        "drift_gap": 0.01103312340173418,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0326594318882665,
+        "segment_sas_scores": [
+          0.3488566176829699,
+          0.3378234942812357
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.01644302228238503,
+        "drift_gap": -0.016443022282385034,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9550613055770706,
+        "segment_sas_scores": [
+          0.349455953945887,
+          0.36589897622827205
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.0018941594963047086,
+        "drift_gap": -0.003463950166678831,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9913580948276269,
+        "segment_sas_scores": [
+          0.38932281970161114,
+          0.4054128246548206,
+          0.4088115106798436,
+          0.42225074361468506,
+          0.37143306274015536
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0031025626436574907,
+        "drift_gap": -0.0031025626436574916,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9918539522160659,
+        "segment_sas_scores": [
+          0.3777646659744281,
+          0.3808672286180856
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.021402922403133507,
+        "drift_gap": 0.021402922403133517,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.050089205081622,
+        "segment_sas_scores": [
+          0.44869903078131146,
+          0.42729610837817794
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.006315953026805931,
+        "drift_gap": 0.006315953026805932,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0159556154751859,
+        "segment_sas_scores": [
+          0.40216110463681537,
+          0.39584515161000944
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.03587476549206935,
+        "drift_gap": -0.03587476549206936,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9107109599526424,
+        "segment_sas_scores": [
+          0.3659076422148776,
+          0.40178240770694695
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5179130192210242
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.46221544865823394
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0022532261543406545,
+        "drift_gap": 0.014477312219145999,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0371959776895319,
+        "segment_sas_scores": [
+          0.3833132064180087,
+          0.4240757068020175,
+          0.39190990091628286,
+          0.3865243878654514
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.03248837586951114,
+        "drift_gap": 0.032488375869511144,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.104564644392843,
+        "segment_sas_scores": [
+          0.34318972294677286,
+          0.3107013470772617
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.012962536206842065,
+        "drift_gap": 0.012962536206842068,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0349810706926834,
+        "segment_sas_scores": [
+          0.38352112547132977,
+          0.3705585892644877
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3250693786295899
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.47683130917916855
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.025619978615313888,
+        "drift_gap": -0.0256199786153139,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9422664375021796,
+        "segment_sas_scores": [
+          0.41814232370720644,
+          0.44376230232252034
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0021419755702347105,
+        "drift_gap": -0.002141975570234711,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9944901495367845,
+        "segment_sas_scores": [
+          0.38661187256680996,
+          0.38875384813704467
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.47777113309910535
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.01318443038633931,
+        "drift_gap": 0.03383842493906236,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0870484901994732,
+        "segment_sas_scores": [
+          0.431440418157053,
+          0.4021720927989723,
+          0.4340950158412132,
+          0.42765446348841896,
+          0.39199254222253094,
+          0.3465452462691015
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.38791624545066666
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.037648067041823594,
+        "drift_gap": 0.03764806704182361,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1092128624700974,
+        "segment_sas_scores": [
+          0.38236998157026764,
+          0.34472191452844403
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4525850513798801
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.36297927585492373
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.012615759821660683,
+        "drift_gap": 0.012615759821660688,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0334287063337941,
+        "segment_sas_scores": [
+          0.390008761384125,
+          0.3773930015624643
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.00977639207786146,
+        "drift_gap": -0.009776392077861462,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9781993645362309,
+        "segment_sas_scores": [
+          0.43866888806587745,
+          0.4484452801437389
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.04689976518881277,
+        "drift_gap": -0.04689976518881278,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.8735241224867611,
+        "segment_sas_scores": [
+          0.32392007896608177,
+          0.37081984415489455
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.33155181974862863
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.01474325264272735,
+        "drift_gap": 0.014743252642727356,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0396341254248285,
+        "segment_sas_scores": [
+          0.3867270540940795,
+          0.3719838014513521
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.002685451614373971,
+        "drift_gap": 0.023246506639872377,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0594597343432177,
+        "segment_sas_scores": [
+          0.41420867451111215,
+          0.37308656446011534,
+          0.4088377712823642
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.038157964844266576,
+        "drift_gap": 0.03815796484426659,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.092726369432175,
+        "segment_sas_scores": [
+          0.44966943755621597,
+          0.4115114727119494
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.007950634035895346,
+        "drift_gap": 0.030403540738899115,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.073889273050044,
+        "segment_sas_scores": [
+          0.4418778926154869,
+          0.39697207920947936,
+          0.42597662454369617
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.02655225524435971,
+        "drift_gap": 0.026552255244359724,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0894140194751956,
+        "segment_sas_scores": [
+          0.3235107792007248,
+          0.2969585239563651
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3471848990916255
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.1235956491287078,
+        "drift_gap": 0.12359564912870785,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.4501756231057572,
+        "segment_sas_scores": [
+          0.39814549764343343,
+          0.2745498485147256
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.38587624392733394
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.04122666158580638,
+        "drift_gap": 0.0412266615858064,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1006542692967314,
+        "segment_sas_scores": [
+          0.45081347666931937,
+          0.40958681508351297
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4022536516954268
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.007081896632107283,
+        "drift_gap": -0.007081896632107287,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9804406585290203,
+        "segment_sas_scores": [
+          0.35499044831952314,
+          0.36207234495163043
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.08300310698225814,
+        "drift_gap": 0.08300310698225816,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.2287109599173247,
+        "segment_sas_scores": [
+          0.44592015744744995,
+          0.3629170504651918
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3774507095864842
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4804793585977215
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.351672909820117
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.38074405540493905
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0006387890772682997,
+        "drift_gap": -0.029677683679235622,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9081385642712677,
+        "segment_sas_scores": [
+          0.2933924212435102,
+          0.35147021044744486,
+          0.29466999939804683
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.004517216722359641,
+        "drift_gap": 0.02335099698981785,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0645459282675038,
+        "segment_sas_scores": [
+          0.3746669697899559,
+          0.3955817332258294,
+          0.3468599331544396,
+          0.3771767552174247,
+          0.36128337518236003
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4134122835419156
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.018476768922341336,
+        "drift_gap": 0.018476768922341347,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0505426617768325,
+        "segment_sas_scores": [
+          0.3840445540921089,
+          0.36556778516976757
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.037548248807243105,
+        "drift_gap": -0.03754824880724311,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.899467955192663,
+        "segment_sas_scores": [
+          0.335947076779756,
+          0.3734953255869991
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.036672559447245505,
+        "drift_gap": -0.03667255944724551,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9031093542205336,
+        "segment_sas_scores": [
+          0.3418217642536849,
+          0.3784943237009304
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.0034684958903722913,
+        "drift_gap": 0.0034684958903722918,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0106267316989102,
+        "segment_sas_scores": [
+          0.32986197119830873,
+          0.32639347530793644
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5174861460333605
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.02115576220517628,
+        "drift_gap": 0.021155762205176287,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0543902751000012,
+        "segment_sas_scores": [
+          0.41011798323236515,
+          0.38896222102718886
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.0029574955768195124,
+        "drift_gap": 0.0029574955768195132,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0069833469913883,
+        "segment_sas_scores": [
+          0.42646438710986345,
+          0.42350689153304394
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3895893260882566
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.018414951381490623,
+        "drift_gap": 0.038254626803369884,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1004857904175602,
+        "segment_sas_scores": [
+          0.4189515058785702,
+          0.37927215503481176,
+          0.38212160311558896
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.05539294422771449,
+        "drift_gap": 0.05539294422771451,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1766487501373142,
+        "segment_sas_scores": [
+          0.36896971272823287,
+          0.31357676850051835
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4964116145484208
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.04227213580536785,
+        "drift_gap": 0.06323209321645712,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1773646016835737,
+        "segment_sas_scores": [
+          0.4197411858778325,
+          0.377821271055654,
+          0.33519691426709675
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.022985216946118988,
+        "drift_gap": 0.02298521694611899,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0541353107213525,
+        "segment_sas_scores": [
+          0.447573468862312,
+          0.424588251916193
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.022485220448269772,
+        "drift_gap": -0.022485220448269783,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9428405451900509,
+        "segment_sas_scores": [
+          0.3708918774094943,
+          0.3933770978577641
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.008981149932738183,
+        "drift_gap": 0.01478709188376276,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0409115842198589,
+        "segment_sas_scores": [
+          0.37622730901876705,
+          0.36461542511671796,
+          0.3582650091532907
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.009755635031556242,
+        "drift_gap": 0.005768816853263969,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0138012637034657,
+        "segment_sas_scores": [
+          0.42376074695567184,
+          0.39271184318603136,
+          0.4432720170187843
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.03181527732617388,
+        "drift_gap": 0.031815277326173896,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0903177546182325,
+        "segment_sas_scores": [
+          0.38407466929904893,
+          0.35225939197287504
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.017975485812273644,
+        "drift_gap": 0.01797548581227365,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0497894361167182,
+        "segment_sas_scores": [
+          0.3790056001147302,
+          0.3610301143024566
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.519529370678404
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.049385433587621534,
+        "drift_gap": 0.04938543358762154,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.159365245557242,
+        "segment_sas_scores": [
+          0.3592737873183155,
+          0.30988835373069396
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.012153144688059057,
+        "drift_gap": 0.017857360241018694,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0459694360316019,
+        "segment_sas_scores": [
+          0.4293876353055334,
+          0.38325026642861215,
+          0.39044390914585136,
+          0.3864792721062568
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.02597308962261041,
+        "drift_gap": 0.03794265934252977,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0984682042750007,
+        "segment_sas_scores": [
+          0.42327170664153396,
+          0.3993325672016953,
+          0.37132552739631314
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3786056046300803
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.036913692117958904,
+        "drift_gap": 0.03691369211795892,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.09201832750845,
+        "segment_sas_scores": [
+          0.43806956092647564,
+          0.4011558688085167
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.05341735094381486,
+        "drift_gap": 0.05341735094381489,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1652756377805567,
+        "segment_sas_scores": [
+          0.37661895319531763,
+          0.32320160225150274
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.016133070569046552,
+        "drift_gap": 0.01613307056904656,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0413941494344394,
+        "segment_sas_scores": [
+          0.40587584314608277,
+          0.3897427725770362
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.07791814683919426,
+        "drift_gap": 0.07791814683919429,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.2208368047927773,
+        "segment_sas_scores": [
+          0.43074949174254484,
+          0.35283134490335055
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.035778128028996034,
+        "drift_gap": 0.03577812802899605,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1051254328838744,
+        "segment_sas_scores": [
+          0.3761156376829912,
+          0.3403375096539952
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.39895317916335093
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0015659258717322713,
+        "drift_gap": 0.0028877571060725304,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0082774324400698,
+        "segment_sas_scores": [
+          0.338661472779112,
+          0.3648562765960411,
+          0.36402263463648493,
+          0.33371960052652316
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4040181786040462
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4551657475931442
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.30764439229133245
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.015900726553580845,
+        "drift_gap": 0.03426963334924488,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.091409123790627,
+        "segment_sas_scores": [
+          0.40917349335932035,
+          0.37243567976799224,
+          0.37737204025215865
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.37704570555947003
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.015166963104781045,
+        "drift_gap": -0.01516696310478105,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9634355021379267,
+        "segment_sas_scores": [
+          0.39963329374526824,
+          0.4148002568500493
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.0021834626464351786,
+        "drift_gap": 0.01428329199174977,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0334225183235788,
+        "segment_sas_scores": [
+          0.4416386412645558,
+          0.4174389825739267,
+          0.43727171597168546
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.0013426433595753416,
+        "drift_gap": 0.031836804508861616,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0833230123329185,
+        "segment_sas_scores": [
+          0.4139257811010318,
+          0.35293745880245925,
+          0.4112404943818811
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.0030454794674916576,
+        "drift_gap": -0.0005134125818847535,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9986559844067616,
+        "segment_sas_scores": [
+          0.39187429568966936,
+          0.3710968334376871,
+          0.3878644685207996,
+          0.37613348577032635
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.039281853208776404,
+        "drift_gap": 0.03928185320877642,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.093353615914935,
+        "segment_sas_scores": [
+          0.4600674095451322,
+          0.4207855563363558
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.03931312979646861,
+        "drift_gap": 0.039313129796468615,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0817786766912982,
+        "segment_sas_scores": [
+          0.5200390523357827,
+          0.4807259225393141
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.003471303216238673,
+        "drift_gap": 0.0034713032162386748,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0102960076667407,
+        "segment_sas_scores": [
+          0.3406217141907824,
+          0.33715041097454373
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.07353191303887255,
+        "drift_gap": 0.07353191303887258,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.2312973240686818,
+        "segment_sas_scores": [
+          0.39144269447548735,
+          0.3179107814366148
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.086051611155199,
+        "drift_gap": 0.08605161115519905,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.2455105091105865,
+        "segment_sas_scores": [
+          0.43655233500176316,
+          0.3505007238465641
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.018724787728793095,
+        "drift_gap": 0.045921089096719214,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.140118434195569,
+        "segment_sas_scores": [
+          0.369105861138157,
+          0.3540285488031498,
+          0.39782045580673714,
+          0.3959722519618311,
+          0.34100057352144675,
+          0.24621877297460842
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4922443766906393
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.00642402035534293,
+        "drift_gap": 0.001230054719937257,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.003038295759282,
+        "segment_sas_scores": [
+          0.42243611797227043,
+          0.38972444026649633,
+          0.40521677491877284,
+          0.4483113239015234,
+          0.36102257437804225
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": -0.05186304420961682,
+        "drift_gap": 0.05186304420961685,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1350413169153521,
+        "segment_sas_scores": [
+          0.43591620211925214,
+          0.3840531579096353
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.010978109286208345,
+        "drift_gap": 0.010978109286208348,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0296258668084888,
+        "segment_sas_scores": [
+          0.38153635681950243,
+          0.3705582475332941
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.36964460755089984
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.018459793138144713,
+        "drift_gap": 0.01845979313814472,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0441372889536036,
+        "segment_sas_scores": [
+          0.43669556556062833,
+          0.4182357724224836
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.025082913378275444,
+        "drift_gap": -0.02508291337827545,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.937182802862596,
+        "segment_sas_scores": [
+          0.3742171910725812,
+          0.3993001044508567
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.029977520361766975,
+        "drift_gap": 0.029977520361766985,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.07225163387116,
+        "segment_sas_scores": [
+          0.44488191429178164,
+          0.41490439393001466
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.40938388662418607
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.49916202969355816
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.004994645241734957,
+        "drift_gap": 0.0035758124920541867,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0097103637015423,
+        "segment_sas_scores": [
+          0.38149813445997294,
+          0.362147529668361,
+          0.3896331100709161,
+          0.3550185511198872,
+          0.36008939752553504
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0025351537326526166,
+        "drift_gap": -0.0025351537326526175,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9932852313672932,
+        "segment_sas_scores": [
+          0.3750137792721548,
+          0.3775489330048074
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.08548558785611296,
+        "drift_gap": 0.08548558785611299,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.259504968561516,
+        "segment_sas_scores": [
+          0.41490351125840996,
+          0.329417923402297
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5084549525001432
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.38029654628302756
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4664522260700332
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.40576212704644893
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5189995979653779
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0020305538741111897,
+        "drift_gap": -0.004258647823868311,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9879705837548772,
+        "segment_sas_scores": [
+          0.3432281903489483,
+          0.35629349729063214,
+          0.3579789547445312,
+          0.385714701125472,
+          0.3183648190609724
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3838534884911268
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.01070942690213594,
+        "drift_gap": -0.010709426902135943,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9727018996303788,
+        "segment_sas_scores": [
+          0.3816045714028144,
+          0.39231399830495034
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.306130921323048
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.39005902225356864
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3534735757304817
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.035244937095448445,
+        "drift_gap": 0.03524493709544846,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0848480736008193,
+        "segment_sas_scores": [
+          0.450633709046402,
+          0.41538877195095353
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3938482992692325
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.014680060609803865,
+        "drift_gap": -0.014680060609803869,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9616214443951341,
+        "segment_sas_scores": [
+          0.367826794545074,
+          0.38250685515487787
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.008384755717712281,
+        "drift_gap": 0.004686344201471071,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0127776454043584,
+        "segment_sas_scores": [
+          0.37126084179203944,
+          0.3716341902302599,
+          0.399498936214408,
+          0.3340234074049491
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": 0.00033496504949609413,
+        "drift_gap": -0.0003349650494960943,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9992187918829035,
+        "segment_sas_scores": [
+          0.42844328515748314,
+          0.42877825020697924
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.00408035449422854,
+        "drift_gap": 0.010403756026215294,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.025663405119843,
+        "segment_sas_scores": [
+          0.40686323100386174,
+          0.4090846763943864,
+          0.4314413360073487,
+          0.429345650393813,
+          0.40665408107384193,
+          0.3801782438592958
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4612683753764351
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.39030390341456983
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.07130906058408086,
+        "drift_gap": 0.07130906058408087,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.17510643314499,
+        "segment_sas_scores": [
+          0.4785417321846507,
+          0.4072326716005698
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.02615384005149012,
+        "drift_gap": 0.02615384005149013,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0723004369827491,
+        "segment_sas_scores": [
+          0.3878921799972147,
+          0.3617383399457246
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.39334159289104087
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.00018824160792620963,
+        "drift_gap": -0.012100338907423291,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9727089268143647,
+        "segment_sas_scores": [
+          0.42439619177362187,
+          0.43816480703129307,
+          0.45585279318043037,
+          0.4635046689991495,
+          0.4107850527500626
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": -0.0052785113518538625,
+        "drift_gap": 0.005278511351853865,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0132976103312257,
+        "segment_sas_scores": [
+          0.40223038619050333,
+          0.39695187483864947
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.014298457334883882,
+        "drift_gap": 0.014298457334883885,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0334232590779844,
+        "segment_sas_scores": [
+          0.4420980714156719,
+          0.42779961408078804
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4149465435212741
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.06694867846308371,
+        "drift_gap": 0.06694867846308372,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.2083506615768052,
+        "segment_sas_scores": [
+          0.38827560853574955,
+          0.32132693007266583
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5195542926814039
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.01638361192665094,
+        "drift_gap": -0.016383611926650943,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9594678642035742,
+        "segment_sas_scores": [
+          0.38782928247739046,
+          0.4042128944040414
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.030969613286186182,
+        "drift_gap": 0.030969613286186193,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0844160145548467,
+        "segment_sas_scores": [
+          0.3978385474510967,
+          0.3668689341649105
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.038626194216223646,
+        "drift_gap": -0.03862619421622365,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9015406273679166,
+        "segment_sas_scores": [
+          0.35367972022992594,
+          0.3923059144461496
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.0386147807311875,
+        "drift_gap": 0.038614780731187515,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.11337116424331,
+        "segment_sas_scores": [
+          0.37921973957517463,
+          0.3406049588439871
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.02872628179056052,
+        "drift_gap": 0.028726281790560526,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0831971210514098,
+        "segment_sas_scores": [
+          0.37400603940152105,
+          0.3452797576109605
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3664413795755991
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0419370761842801,
+        "drift_gap": 0.04193707618428011,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.109453273184869,
+        "segment_sas_scores": [
+          0.42508757469379,
+          0.3831504985095099
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.10039336805959789,
+        "drift_gap": 0.10039336805959792,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.3224288270156417,
+        "segment_sas_scores": [
+          0.41175934916254564,
+          0.3113659811029477
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3971181922013317
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.015103022559222076,
+        "drift_gap": 0.015103022559222079,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.036665422263565,
+        "segment_sas_scores": [
+          0.4270176174779942,
+          0.41191459491877214
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.04368543412847324,
+        "drift_gap": 0.043685434128473255,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.11105408950152,
+        "segment_sas_scores": [
+          0.43705621700158237,
+          0.3933707828731091
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.03182785234873652,
+        "drift_gap": 0.03182785234873653,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.090596146361126,
+        "segment_sas_scores": [
+          0.38314359399040915,
+          0.3513157416416726
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.05176843471386591,
+        "drift_gap": 0.05176843471386594,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.138220026681068,
+        "segment_sas_scores": [
+          0.42630486012866914,
+          0.3745364254148032
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.019771021021432793,
+        "drift_gap": 0.0197710210214328,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0563311395991748,
+        "segment_sas_scores": [
+          0.37074955903990414,
+          0.35097853801847134
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.39889621955882515
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5469929172960968
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.39761308065893364
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0206648729677748,
+        "drift_gap": 0.020664872967774806,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0557893418433848,
+        "segment_sas_scores": [
+          0.39107384867834094,
+          0.37040897571056614
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.007933422233021788,
+        "drift_gap": 0.007933422233021792,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0213254704850163,
+        "segment_sas_scores": [
+          0.37994970382436993,
+          0.37201628159134814
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.025961079274297687,
+        "drift_gap": 0.025961079274297694,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0724830575890583,
+        "segment_sas_scores": [
+          0.38412863094525074,
+          0.35816755167095304
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.003270608645881744,
+        "drift_gap": -0.003270608645881745,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9903197813367373,
+        "segment_sas_scores": [
+          0.3345945532531959,
+          0.33786516189907767
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.004813931419169244,
+        "drift_gap": -0.0035923301985433254,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9910652429136653,
+        "segment_sas_scores": [
+          0.4245394856853481,
+          0.37240072577057265,
+          0.4200580580563546,
+          0.3989181164967365,
+          0.38721113322642
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3632867348027865
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.010136501340056722,
+        "drift_gap": 0.010136501340056725,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.027261140853727,
+        "segment_sas_scores": [
+          0.3819661835402736,
+          0.3718296822002169
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.07138954855760841,
+        "drift_gap": -0.07138954855760843,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.8341010552365029,
+        "segment_sas_scores": [
+          0.3589299369543714,
+          0.43031948551197985
+        ],
+        "total_segments": 2
+      }
+    ],
+    "hallucinated_raw": [
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3318296159655808
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.009565434065226043,
+        "drift_gap": 0.02342068302298239,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.06028621258602,
+        "segment_sas_scores": [
+          0.4384019637000888,
+          0.3979474490856591,
+          0.39938722914625346,
+          0.3933757738586767,
+          0.4017103331299005,
+          0.37038848587447704
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.45647099465695906
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3601342456023144
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.49830436060477545
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.44367389324127054
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3888793869534451
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.35850125263224913
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4328999790091789
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.007695691368445195,
+        "drift_gap": 0.009296468113864143,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.025338392179653,
+        "segment_sas_scores": [
+          0.382485221125241,
+          0.36989287778769536,
+          0.38048193028832883,
+          0.3533032323968792
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.0013791233839299138,
+        "drift_gap": -0.004919352200378757,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9874610551808696,
+        "segment_sas_scores": [
+          0.4093888254024189,
+          0.36432283644403,
+          0.38850783540688066,
+          0.4002292028598127,
+          0.4019099022597799,
+          0.37483844873487315
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.484065265332479
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.007294724892368374,
+        "drift_gap": 0.007294724892368376,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.021907304668896,
+        "segment_sas_scores": [
+          0.3402761209435861,
+          0.33298139605121774
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3378581188282197
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0047538857487431875,
+        "drift_gap": 0.010200894883491907,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0281161039433866,
+        "segment_sas_scores": [
+          0.3582316204036569,
+          0.3950304369813182,
+          0.3657803596016747,
+          0.37638369545669587,
+          0.3994306977928711,
+          0.32831915357839375,
+          0.3471194296202713
+        ],
+        "total_segments": 7
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4130969144653179
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4389773429868947
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4031855934147948
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3972537179223876
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.42040963263896974
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4134496937173511
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.01582340585730333,
+        "drift_gap": 0.04383856654076973,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1287533052644105,
+        "segment_sas_scores": [
+          0.37942954946416624,
+          0.3892175431961492,
+          0.3588033681461644,
+          0.3354605588925509,
+          0.32719101232944875
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": -0.025960607303891017,
+        "drift_gap": 0.02596060730389102,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1123402173642096,
+        "segment_sas_scores": [
+          0.25704977477208396,
+          0.23108916746819294
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5030822259773119
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3444927308486756
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3738085491079696
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.014635865918281525,
+        "drift_gap": -0.014635865918281532,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9596986573709043,
+        "segment_sas_scores": [
+          0.34852488663975145,
+          0.363160752558033
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.34135111616402936
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.006419938367766253,
+        "drift_gap": -0.004361575493124714,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9881070561880516,
+        "segment_sas_scores": [
+          0.35567989521076177,
+          0.3690697696322919,
+          0.3412630020860538,
+          0.37326349958432337,
+          0.3856827220735773
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.02885710261385626,
+        "drift_gap": -0.028857102613856267,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9208787491218244,
+        "segment_sas_scores": [
+          0.33586289730485197,
+          0.36471999991870824
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.397257071147205
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3928483408330512
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.42863858594639936
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0057179118257808794,
+        "drift_gap": 0.003467688656476231,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.008155687681914,
+        "segment_sas_scores": [
+          0.4182622565894742,
+          0.43904620800248034,
+          0.45723270116195597,
+          0.39314038611704605
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.017206412819686417,
+        "drift_gap": 0.018297515302105882,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0475064246379924,
+        "segment_sas_scores": [
+          0.4225221380959554,
+          0.3843903997311763,
+          0.41552991792329075,
+          0.35478758929962917
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3861960746147687
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4551304227257472
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.009941986548303926,
+        "drift_gap": 0.01714201848315372,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0444678423091693,
+        "segment_sas_scores": [
+          0.39857265571181166,
+          0.406696326463723,
+          0.3979149704217145,
+          0.4127031223799458,
+          0.34585932501218064
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": -0.09013198773101154,
+        "drift_gap": 0.09013198773101155,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.3048525795385875,
+        "segment_sas_scores": [
+          0.3857896064640781,
+          0.29565761873306656
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.41195568207236033
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.36332020014310434
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.012921428214818129,
+        "drift_gap": 0.03169230220867236,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.081315133618492,
+        "segment_sas_scores": [
+          0.4500348774939941,
+          0.40723540486870363,
+          0.40704662172912326,
+          0.4017988185135552,
+          0.40616373849411413,
+          0.36127744045813454
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": -0.0014742311270373172,
+        "drift_gap": -0.005563588290181498,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9847414159803957,
+        "segment_sas_scores": [
+          0.3568826756216661,
+          0.36123059147653813,
+          0.3790590866486352,
+          0.36934952628893425,
+          0.34545205258028144
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": -0.0027838674783211724,
+        "drift_gap": 0.008619666165985695,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0226684526837022,
+        "segment_sas_scores": [
+          0.38715738217926615,
+          0.39058080609649487,
+          0.38909081918930283,
+          0.36625803378094746,
+          0.385399430945434
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.40872109540330004
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4102381853469308
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.46568212248916535
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.04582779791149891,
+        "drift_gap": 0.045827797911498935,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1262238662868587,
+        "segment_sas_scores": [
+          0.40889541150645753,
+          0.3630676135949586
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4224979821168639
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4420842864954338
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.42613328556179453
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3909466072025119
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.426465947208323
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.018640243046319983,
+        "drift_gap": 0.040888995098092296,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1277195230793682,
+        "segment_sas_scores": [
+          0.35821484456126307,
+          0.36385672193778335,
+          0.33439095187510653,
+          0.3059026244277554
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.022929557025888968,
+        "drift_gap": 0.0242671771888483,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0663802280925623,
+        "segment_sas_scores": [
+          0.38984557133069375,
+          0.38717033100477516,
+          0.3439864572789158
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.09809813376828219,
+        "drift_gap": 0.09809813376828225,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.3250035918599479,
+        "segment_sas_scores": [
+          0.39993520949683353,
+          0.3018370757285513
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.03988447993807896,
+        "drift_gap": -0.039884479938078976,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9030139544709834,
+        "segment_sas_scores": [
+          0.3713548867205628,
+          0.4112393666586418
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.33601213458526535
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.00011602461541733443,
+        "drift_gap": 0.005655204413146708,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0137395854248705,
+        "segment_sas_scores": [
+          0.4294263677006387,
+          0.39528651481589006,
+          0.42705077701113064,
+          0.40040662267975136,
+          0.4152871200251954,
+          0.4047438565500898,
+          0.42595979579592214
+        ],
+        "total_segments": 7
+      },
+      {
+        "drift_slope": -0.00879726654546054,
+        "drift_gap": 0.011803748667080505,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0307094211998207,
+        "segment_sas_scores": [
+          0.4131417930924089,
+          0.3792036488793666,
+          0.38623701268322524,
+          0.416225238936814,
+          0.3506446653363825
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3143450579735947
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4571155048489545
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.008632608711298485,
+        "drift_gap": 0.040017426473927975,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1247711935408293,
+        "segment_sas_scores": [
+          0.34783690187021427,
+          0.3775991865087128,
+          0.35679564941678654,
+          0.3103003995586096,
+          0.32152964011832996,
+          0.33034941869698997
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": -0.006622215191439328,
+        "drift_gap": 0.024367778089842196,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0704318279545,
+        "segment_sas_scores": [
+          0.3503519890550673,
+          0.3903371567882044,
+          0.35034489847587447,
+          0.34160869118771287
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.40970054242226933
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3698729545949572
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.009158678923865281,
+        "drift_gap": 0.009444713853027198,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0250870987627547,
+        "segment_sas_scores": [
+          0.41417421557658185,
+          0.4304638447102435,
+          0.3131268626883843,
+          0.3783161050548761,
+          0.38952688724719786,
+          0.3615877891140539
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.517763762723468
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.004586068063643837,
+        "drift_gap": 0.00921585252481849,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0227573664518674,
+        "segment_sas_scores": [
+          0.4141771446985104,
+          0.4049175757761611,
+          0.40500500857122274
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3993034464898577
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0054094847737898065,
+        "drift_gap": 0.026520388773439096,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0698577803657634,
+        "segment_sas_scores": [
+          0.4261743592249032,
+          0.39791222364647233,
+          0.41244342541737344,
+          0.3880875572297796,
+          0.352630179428862,
+          0.39876216738618286,
+          0.3875597907826308,
+          0.37958387282709655
+        ],
+        "total_segments": 8
+      },
+      {
+        "drift_slope": 0.010808213992247122,
+        "drift_gap": -0.031157811580164785,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9130629102303893,
+        "segment_sas_scores": [
+          0.32723711126272254,
+          0.36793630643855785,
+          0.3488535392472168
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.05354182728878603,
+        "drift_gap": 0.05354182728878604,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1500227012545015,
+        "segment_sas_scores": [
+          0.4104333299818124,
+          0.3568915026930264
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.04322342810839868,
+        "drift_gap": 0.04322342810839869,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1133045958043641,
+        "segment_sas_scores": [
+          0.42470334780229946,
+          0.38147991969390077
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4023085279857277
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.013773272575571992,
+        "drift_gap": -0.02389775132967817,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9104280835081462,
+        "segment_sas_scores": [
+          0.24290184686638785,
+          0.26315080437460026,
+          0.27044839201753185
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4173907387267407
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4685197237094057
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3763535366899713
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.025471911711057386,
+        "drift_gap": 0.025471911711057393,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0706961929028018,
+        "segment_sas_scores": [
+          0.38577295007217544,
+          0.36030103836111804
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.010712513336800063,
+        "drift_gap": -0.010712513336800067,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9690569610770954,
+        "segment_sas_scores": [
+          0.3354885615960974,
+          0.3462010749328975
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3553257284339032
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4064088069447455
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.026602195717325843,
+        "drift_gap": -0.02660219571732586,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9375300006899434,
+        "segment_sas_scores": [
+          0.3992373434395659,
+          0.42583953915689177
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.446760027804109
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.013834225329455937,
+        "drift_gap": -0.01383422532945594,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.964570984081302,
+        "segment_sas_scores": [
+          0.3766430422639353,
+          0.39047726759339124
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.007069174719307785,
+        "drift_gap": 0.027946697712288415,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0716533258921628,
+        "segment_sas_scores": [
+          0.4145902488883982,
+          0.4049679816020079,
+          0.43436143805993416,
+          0.3844078890971519,
+          0.4189854042732953,
+          0.3666862820430277
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.341934181853935
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4257768540006585
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.014832055652332416,
+        "drift_gap": 0.014832055652332421,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.042742461085821,
+        "segment_sas_scores": [
+          0.36184192067979776,
+          0.34700986502746534
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.0062500649209950255,
+        "drift_gap": 0.03725888772559305,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0984090278347276,
+        "segment_sas_scores": [
+          0.4025457963204303,
+          0.42791585786229036,
+          0.41715249907171376,
+          0.35884867089106454,
+          0.37445799239905414,
+          0.4025308267875367
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4694838890748292
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.40876354695503236
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.020813192882341763,
+        "drift_gap": 0.05671420263856003,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1684086857900484,
+        "segment_sas_scores": [
+          0.4092717770323937,
+          0.37768724066532827,
+          0.3370578932169975,
+          0.35837718492111253,
+          0.3148608404927928
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": -0.02323708013771502,
+        "drift_gap": 0.03516054784829137,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0884764220257728,
+        "segment_sas_scores": [
+          0.46129055909138683,
+          0.4038309375085973,
+          0.4145346946522982,
+          0.3802657062511031
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.00327820401341091,
+        "drift_gap": -0.011648416388335414,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9661442100566708,
+        "segment_sas_scores": [
+          0.3035481554494823,
+          0.36127461600305477,
+          0.39636768756497304,
+          0.3360345507897674,
+          0.29977716798907145
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": -0.003829590830853531,
+        "drift_gap": 0.011172480698890763,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0460077393402467,
+        "segment_sas_scores": [
+          0.25401163904713153,
+          0.23932585931105704,
+          0.24635245738542447
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5086782998377416
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0003149024108909768,
+        "drift_gap": -0.0012427612579890002,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9970662673525252,
+        "segment_sas_scores": [
+          0.39483032805985663,
+          0.44838704065754303,
+          0.42388718129672043,
+          0.4453864531704444,
+          0.420219998535604,
+          0.4052263820820384
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.47302229317150213
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.01067372073916168,
+        "drift_gap": 0.0246324133826466,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0688272913406323,
+        "segment_sas_scores": [
+          0.3796567205472486,
+          0.38538270384788975,
+          0.37391931698705894,
+          0.3615262213646478,
+          0.33821635809306116
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.42360698603361957
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3759582193775759
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4160477402709545
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3139197001465316
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.004521789632150899,
+        "drift_gap": 0.021665354249407853,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0551757265826147,
+        "segment_sas_scores": [
+          0.3930712310887689,
+          0.42539452908418146,
+          0.42451320871616066,
+          0.4019674500312988,
+          0.3871272081459869,
+          0.3888882479636017
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.35075916908793686
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.011021476133522886,
+        "drift_gap": 0.014749884934729673,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0380244738140356,
+        "segment_sas_scores": [
+          0.40265492227637,
+          0.39519810467395644,
+          0.38061197000932423
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.03624573070676073,
+        "drift_gap": -0.03624573070676074,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.8967089690583235,
+        "segment_sas_scores": [
+          0.3146630594981408,
+          0.3509087902049015
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.531569770544607
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.014154259626038166,
+        "drift_gap": 0.014154259626038168,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0431666343653256,
+        "segment_sas_scores": [
+          0.3420524113848379,
+          0.3278981517587997
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.46377506377496175
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.03017462098814843,
+        "drift_gap": -0.030174620988148437,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9239688588035001,
+        "segment_sas_scores": [
+          0.3666972464242208,
+          0.39687186741236924
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3317906206517761
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4004447523462504
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.45925765869081825
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.009904973198017636,
+        "drift_gap": 0.023133934848126703,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0715036578612886,
+        "segment_sas_scores": [
+          0.35173534585306365,
+          0.34160249313076546,
+          0.34283519843043003,
+          0.3095160581451508,
+          0.3182536973557828
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4550174455999536
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.003112453348337439,
+        "drift_gap": 0.005281979530607106,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0139935607181003,
+        "segment_sas_scores": [
+          0.3857782869202383,
+          0.36940155208953046,
+          0.39303968990956395,
+          0.3937956466642329,
+          0.3827427256965449,
+          0.3558352179667338
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4393026274876801
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.39733165349730815
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0005540044663317467,
+        "drift_gap": 0.0026941174964630332,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.007223779657883,
+        "segment_sas_scores": [
+          0.36271936734318955,
+          0.38857132427383156,
+          0.37976599756438595,
+          0.3697053604466203,
+          0.36938232692513645
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": -0.0035545040708056305,
+        "drift_gap": 0.007709395465672564,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0213066088596123,
+        "segment_sas_scores": [
+          0.3764159465435152,
+          0.34804716373122024,
+          0.3841586217825827,
+          0.3638386950211061,
+          0.3930703725007283,
+          0.32858447813846625
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4326085688200869
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3928129306277752
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3574677436378848
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0064311319270784675,
+        "drift_gap": 0.020673257089251496,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0476942032570338,
+        "segment_sas_scores": [
+          0.45460254468357253,
+          0.45365255282272504,
+          0.44048807146958147,
+          0.4212032841251352,
+          0.43867151939697513
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": -0.007070704234138991,
+        "drift_gap": 0.014937204403397186,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.036600305507219,
+        "segment_sas_scores": [
+          0.43784158101019016,
+          0.4082666923172713,
+          0.43148050551749384,
+          0.3724977705307516,
+          0.42037252073275505
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4088326957629931
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4251250106491354
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5126297287309294
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.46841873519724964
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3891417992395644
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.012816598394526195,
+        "drift_gap": 0.012816598394526202,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0436921468357419,
+        "segment_sas_scores": [
+          0.3061553176547513,
+          0.2933387192602251
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3930067012347293
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4018295157865264
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3946626160366441
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.45947745242733623
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.39986410833131264
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.01745040074414087,
+        "drift_gap": 0.04103531245654918,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.128392319791139,
+        "segment_sas_scores": [
+          0.3344080765613632,
+          0.38688010471808215,
+          0.3520074539822909,
+          0.3324455107350595,
+          0.27437336983217014
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4124567977864787
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.031374984107164404,
+        "drift_gap": 0.034725356388653206,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0950944020966547,
+        "segment_sas_scores": [
+          0.3998925546992134,
+          0.3931918101362359,
+          0.3371425864848846
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.004196733995394013,
+        "drift_gap": -0.016848030298495575,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9591334930109734,
+        "segment_sas_scores": [
+          0.4023264538911091,
+          0.38851726342928156,
+          0.41807768434779813,
+          0.4064620935695836
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.03987394341041941,
+        "drift_gap": 0.05189734895746606,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1457691279755682,
+        "segment_sas_scores": [
+          0.4079216298063187,
+          0.38387481871222545,
+          0.32817374298547985
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.059032467063700356,
+        "drift_gap": 0.05903246706370038,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.3327017077292973,
+        "segment_sas_scores": [
+          0.23646608309951628,
+          0.1774336160358159
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.41805482227651986
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.014356855569688184,
+        "drift_gap": -0.005469563476323658,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9824508037604531,
+        "segment_sas_scores": [
+          0.3062007490362273,
+          0.2884261648494982,
+          0.33491446017560367
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3972797253182563
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.5180076035098826
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.33767702582296866
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3754848824631698
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.008488923266676794,
+        "drift_gap": -0.030555878785576196,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.92287662991206,
+        "segment_sas_scores": [
+          0.36563892897159045,
+          0.40977284000938924,
+          0.38261677550494405
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4179763868869791
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.49820596418129937
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3363306885596375
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0016266175490718085,
+        "drift_gap": -0.014346712032748288,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9613859765195985,
+        "segment_sas_scores": [
+          0.3771047272494561,
+          0.35021274037320804,
+          0.34426688290089613,
+          0.3689261927230704,
+          0.3800286538657148,
+          0.3656696400330198
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3792260004875263
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.349878651094501
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.00274214109885676,
+        "drift_gap": -0.025074389481599207,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.7714227944456507,
+        "segment_sas_scores": [
+          0.08812250722638862,
+          0.10957911707894592,
+          0.056168251599435046,
+          0.10828954736710408,
+          0.14540697742560868,
+          0.07539651955685447
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.2746021827419135
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.0070757527518461585,
+        "drift_gap": 0.011623321161834621,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0311422755966648,
+        "segment_sas_scores": [
+          0.3760312568161415,
+          0.39368114236952345,
+          0.3941899426432503,
+          0.3522758142187454
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": -0.01313103550744481,
+        "drift_gap": 0.02360444459022243,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0643531547515,
+        "segment_sas_scores": [
+          0.3983142674746325,
+          0.38248552898521965,
+          0.395866177307882,
+          0.3612366583624212,
+          0.3432835252488077
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.013426279508812668,
+        "drift_gap": -0.013426279508812672,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9486025333927262,
+        "segment_sas_scores": [
+          0.2477982592686017,
+          0.26122453877741436
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.01410215079551151,
+        "drift_gap": 0.0380615994739385,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1056945872805173,
+        "segment_sas_scores": [
+          0.3983902257901731,
+          0.4244153701086598,
+          0.37170697861585833,
+          0.3723122660211037,
+          0.384530438165082,
+          0.3234850719066901
+        ],
+        "total_segments": 6
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.46273192320907386
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.48609216257839144
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3974522151379854
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.009246901046561357,
+        "drift_gap": 0.02245655017695014,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0627886128337978,
+        "segment_sas_scores": [
+          0.37865441553217727,
+          0.3815651444943687,
+          0.3705215392771251,
+          0.3584713353705773,
+          0.3439668148612662
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.394506803512355
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.002071740506475794,
+        "drift_gap": -0.01844310765532503,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9520576584277269,
+        "segment_sas_scores": [
+          0.39447243735993603,
+          0.33802836725717617,
+          0.39651401855343293,
+          0.36744237563461485,
+          0.39012413570359566
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.002426719002430152,
+        "drift_gap": 0.009818295858043169,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0460725325658393,
+        "segment_sas_scores": [
+          0.22519423077044456,
+          0.22065274319508638,
+          0.17906426060880615,
+          0.24714612164063848
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4137599836341682
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4577292257498333
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.38972025278286343
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4295981160267978
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4749368768802948
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4486974574129484
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.34697093135022145
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.49596826493630236
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0025385130289860554,
+        "drift_gap": -0.002538513028986056,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9897939513972507,
+        "segment_sas_scores": [
+          0.24618781856052183,
+          0.24872633158950788
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.467296739752902
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.37708861528510423
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.012976424404442237,
+        "drift_gap": -0.030769563048224535,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9330898333950951,
+        "segment_sas_scores": [
+          0.42909423059489216,
+          0.4646805078824567,
+          0.45504707940377664
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3578480157952814
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.001733073649129168,
+        "drift_gap": -0.0017330736491291687,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9936741236219302,
+        "segment_sas_scores": [
+          0.272232705248685,
+          0.27396577889781415
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": -0.00512597520642572,
+        "drift_gap": 0.005290935579144451,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0136032386192313,
+        "segment_sas_scores": [
+          0.386300646267797,
+          0.40217474381539076,
+          0.4134728911687993,
+          0.38321849015037085,
+          0.37014889706817833
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.35261352117747
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.008508338440852086,
+        "drift_gap": 0.01850077349118523,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0487462622360981,
+        "segment_sas_scores": [
+          0.39393282689876463,
+          0.4021330110677384,
+          0.39765169265358774,
+          0.37697420718847563,
+          0.3639705366341356
+        ],
+        "total_segments": 5
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.40726410412528025
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3977685888862194
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.02624839868876732,
+        "drift_gap": 0.026248398688767327,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.1278688926493343,
+        "segment_sas_scores": [
+          0.2315242726321705,
+          0.2052758739434032
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4658793971707531
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4299167921191781
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4034280047396103
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.4192439621830875
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.012116077835504693,
+        "drift_gap": -0.00228187806454766,
+        "drift_alert_point": -1,
+        "early_late_ratio": 0.9930743225170253,
+        "segment_sas_scores": [
+          0.34140009958566647,
+          0.3129978329163327,
+          0.38042385628749925,
+          0.2785378323435953
+        ],
+        "total_segments": 4
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.37531313395331695
+        ],
+        "total_segments": 1
+      },
+      {
+        "drift_slope": -0.006076326325398473,
+        "drift_gap": 0.03074614948631088,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0935007627879505,
+        "segment_sas_scores": [
+          0.35957929019597296,
+          0.3102396438741482,
+          0.347426637545176
+        ],
+        "total_segments": 3
+      },
+      {
+        "drift_slope": -0.026485420279820024,
+        "drift_gap": 0.026485420279820038,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0605565113563142,
+        "segment_sas_scores": [
+          0.46385242981542496,
+          0.4373670095356049
+        ],
+        "total_segments": 2
+      },
+      {
+        "drift_slope": 0.0,
+        "drift_gap": 0.0,
+        "drift_alert_point": -1,
+        "early_late_ratio": 1.0,
+        "segment_sas_scores": [
+          0.3426104808045525
+        ],
+        "total_segments": 1
+      }
+    ]
+  },
+  "statistical_tests": {
+    "prd_t_test": {
+      "t_statistic": -3.307608000866318,
+      "p_value": 0.0009476151258016854
+    },
+    "gass_t_test": {
+      "t_statistic": 10.959815277548506,
+      "p_value": 1.2275318473364674e-27
+    },
+    "semantic_drift_tests": {
+      "drift_slope": {
+        "t_statistic": -3.3074510784966864,
+        "p_value": 0.0010270925094477742
+      },
+      "drift_gap": {
+        "t_statistic": 2.8330547489583924,
+        "p_value": 0.0048450619808779434
+      },
+      "early_late_ratio": {
+        "t_statistic": 2.5662167950336223,
+        "p_value": 0.01064648643033032
+      }
+    }
+  },
+  "effect_sizes": {
+    "prd_cohens_d": -0.18050090284407289,
+    "gass_cohens_d": 0.5980928066698441,
+    "semantic_drift_effects": {
+      "drift_slope": -0.3307451078496686,
+      "drift_gap": 0.28330547489583924,
+      "early_late_ratio": 0.2566216795033622
+    }
+  }
+}

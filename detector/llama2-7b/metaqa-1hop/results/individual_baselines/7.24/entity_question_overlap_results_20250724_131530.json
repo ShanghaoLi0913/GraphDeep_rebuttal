@@ -1,0 +1,37 @@
+{
+  "Entity_Question_Overlap": {
+    "auc": 0.49950347567030784,
+    "threshold": 0.36122448979591837,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "accuracy": 0.844,
+    "classification_report": {
+      "0": {
+        "precision": 0.8473895582329317,
+        "recall": 0.9952830188679245,
+        "f1-score": 0.9154013015184381,
+        "support": 424.0
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 76.0
+      },
+      "accuracy": 0.844,
+      "macro avg": {
+        "precision": 0.42369477911646586,
+        "recall": 0.49764150943396224,
+        "f1-score": 0.45770065075921906,
+        "support": 500.0
+      },
+      "weighted avg": {
+        "precision": 0.7185863453815261,
+        "recall": 0.844,
+        "f1-score": 0.7762603036876355,
+        "support": 500.0
+      }
+    }
+  }
+}

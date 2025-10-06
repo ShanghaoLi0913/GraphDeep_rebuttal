@@ -1,0 +1,69 @@
+=== Enhanced GraphDeEP Case Study Analysis ===
+
+🔍 CORRELATION ANALYSIS
+----------------------------------------
+Overall PRD-SAS Correlation: r=0.318 (p=0.0000)
+Truthful Samples: r=0.326
+Hallucinated Samples: r=0.301
+
+📊 QUADRANT CHARACTERISTICS
+----------------------------------------
+HIGH_PRD_HIGH_SAS:
+  Samples: 3194
+  Hallucination Rate: 6.39%
+  PRD Mean: 0.876 ± 0.016
+  SAS Mean: 0.185 ± 0.021
+
+HIGH_PRD_LOW_SAS:
+  Samples: 1802
+  Hallucination Rate: 10.77%
+  PRD Mean: 0.875 ± 0.019
+  SAS Mean: 0.134 ± 0.020
+
+LOW_PRD_HIGH_SAS:
+  Samples: 1802
+  Hallucination Rate: 4.22%
+  PRD Mean: 0.855 ± 0.007
+  SAS Mean: 0.180 ± 0.018
+
+LOW_PRD_LOW_SAS:
+  Samples: 3194
+  Hallucination Rate: 6.98%
+  PRD Mean: 0.850 ± 0.009
+  SAS Mean: 0.123 ± 0.025
+
+🎯 QUESTION PATTERN ANALYSIS
+----------------------------------------
+OTHER: 3826 samples, hallucination rate: 6.69%, PRD: 0.863, SAS: 0.162
+IDENTIFICATION: 5062 samples, hallucination rate: 3.36%, PRD: 0.863, SAS: 0.148
+RELATIONAL: 35 samples, hallucination rate: 11.43%, PRD: 0.863, SAS: 0.144
+COMPARATIVE: 2 samples, hallucination rate: 0.00%, PRD: 0.874, SAS: 0.179
+DESCRIPTIVE: 1067 samples, hallucination rate: 25.02%, PRD: 0.866, SAS: 0.161
+
+🔬 CONFIDENCE ANALYSIS
+----------------------------------------
+MEDIUM: 9071 samples, hallucination rate: 0.00%
+HIGH: 224 samples, hallucination rate: 0.00%
+LOW: 697 samples, hallucination rate: 100.00%
+
+💡 KEY INSIGHTS
+----------------------------------------
+• PRD-SAS overall correlation: r=0.318 (p=0.0000)
+• Truthful samples correlation: r=0.326
+• Hallucinated samples correlation: r=0.301
+• High PRD + Low SAS shows highest hallucination rate - semantic integration failure
+• Low PRD + High SAS shows lowest hallucination rate - compensatory semantic processing
+• Question type significantly influences failure mode distribution
+
+🔧 GENERATED FILES
+----------------------------------------
+• Visualizations: experiment_records/enhanced_case_study/enhanced_correlation_analysis.png, experiment_records/enhanced_case_study/enhanced_quadrant_analysis.png, experiment_records/enhanced_case_study/prd_sas_joint_distribution.png
+• Comprehensive Markdown Report: experiment_records/enhanced_case_study/comprehensive_case_study_report_20250719_134807.md
+• LaTeX Academic Report: experiment_records/enhanced_case_study/case_study_analysis_latex_20250719_134807.tex
+
+🎯 PRD × SAS JOINT DISTRIBUTION FINDINGS
+----------------------------------------
+• Hallucinated samples cluster around PRD: 0.867, SAS: 0.146
+• Truthful samples center at PRD: 0.863, SAS: 0.156
+• Hallucination hot zone identified: PRD ∈ [0.82, 0.88], SAS ∈ [0.05, 0.15]
+• Clear separation visible: hallucinations concentrate in medium-low PRD + low SAS region

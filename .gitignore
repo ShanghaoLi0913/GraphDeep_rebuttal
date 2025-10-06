@@ -1,0 +1,20 @@
+# Ignore large dataset files
+dataset/**/*.json
+dataset/**/*.npy
+
+# Ignore model files
+detector/**/models/*.joblib
+
+# Ignore experiment results
+experiment_records/**/*.jsonl
+
+# Ignore checkpoints or intermediate large files
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+
+# Ignore system files
+.DS_Store
+__pycache__/
+*.pyc

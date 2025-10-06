@@ -1,2 +1,0 @@
-{"config": {"timestamp": "20250610_144719", "model_name": "meta-llama/Llama-2-7b-chat-hf", "num_samples": 2, "batch_size": 8, "device": "cuda"}}
-{"final_stats": {"total_samples": 2, "valid_samples": 0, "failed_samples": 2, "average_ecs": 0, "total_time": 0.013851165771484375}}

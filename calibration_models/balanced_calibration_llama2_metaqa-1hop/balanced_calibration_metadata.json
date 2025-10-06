@@ -1,0 +1,9 @@
+{
+  "balance_ratio": 1.0,
+  "random_seed": 42,
+  "training_time": "2025-07-11T14:32:26.373875",
+  "model": "meta-llama/Llama-2-7b-chat-hf",
+  "dataset": "MetaQA-1hop dev split",
+  "scaler_path": "/mnt/d/experiments/GraphDeEP/calibration_models/balanced_calibration_llama2_dev_20250711_143226/balanced_scaler.joblib",
+  "classifier_path": "/mnt/d/experiments/GraphDeEP/calibration_models/balanced_calibration_llama2_dev_20250711_143226/balanced_classifier.joblib"
+}

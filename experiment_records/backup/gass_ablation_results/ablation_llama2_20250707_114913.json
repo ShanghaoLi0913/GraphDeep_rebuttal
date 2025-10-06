@@ -1,0 +1,26 @@
+{
+  "timestamp": "2025-07-07T11:49:13.412431",
+  "model_name": "meta-llama/Llama-2-7b-chat-hf",
+  "num_samples": 3,
+  "variants": {
+    "original": {
+      "name": "original",
+      "description": "Original GASS implementation",
+      "correct_scores": [],
+      "hallucination_scores": []
+    },
+    "MultiLayer-Norm-Contrast": {
+      "name": "MultiLayer-Norm-Contrast",
+      "description": "Multi-layer fusion with normalization and contrast",
+      "correct_scores": [],
+      "hallucination_scores": []
+    },
+    "Rank-Based-TopK": {
+      "name": "Rank-Based-TopK",
+      "description": "Rank-based top-K similarity aggregation",
+      "correct_scores": [],
+      "hallucination_scores": []
+    }
+  },
+  "sample_results": []
+}

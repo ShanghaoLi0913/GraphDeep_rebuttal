@@ -9,22 +9,10 @@ jsonlines>=2.0.0  # JSON行格式处理
 
 # 深度学习
 torch>=2.0.0
-transformers>=4.31.0
-accelerate>=0.21.0
-modelscope>=1.9.5
-tiktoken>=0.5.1
-
-# 数据处理
-numpy>=1.24.3
-pandas>=2.0.2
-scikit-learn>=1.2.2
-
-# 可视化
-matplotlib>=3.7.1
-seaborn>=0.12.2
+transformers>=4.30.0
+datasets>=2.12.0
 
 # 开发工具
 black>=21.6b0  # 代码格式化
 pylint>=2.9.0  # 代码检查
 pytest>=6.2.0  # 单元测试
-tqdm>=4.65.0

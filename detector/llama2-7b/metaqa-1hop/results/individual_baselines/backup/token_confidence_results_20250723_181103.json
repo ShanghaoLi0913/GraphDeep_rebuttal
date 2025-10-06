@@ -1,0 +1,37 @@
+{
+  "Token_Confidence": {
+    "auc": 0.5775401069518716,
+    "threshold": 0.5081632653061224,
+    "precision": 0.35,
+    "recall": 0.4117647058823529,
+    "f1_score": 0.3783783783783784,
+    "accuracy": 0.54,
+    "classification_report": {
+      "0": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6060606060606061,
+        "f1-score": 0.6349206349206349,
+        "support": 33.0
+      },
+      "1": {
+        "precision": 0.35,
+        "recall": 0.4117647058823529,
+        "f1-score": 0.3783783783783784,
+        "support": 17.0
+      },
+      "accuracy": 0.54,
+      "macro avg": {
+        "precision": 0.5083333333333333,
+        "recall": 0.5089126559714795,
+        "f1-score": 0.5066495066495067,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.5589999999999999,
+        "recall": 0.54,
+        "f1-score": 0.5476962676962677,
+        "support": 50.0
+      }
+    }
+  }
+}

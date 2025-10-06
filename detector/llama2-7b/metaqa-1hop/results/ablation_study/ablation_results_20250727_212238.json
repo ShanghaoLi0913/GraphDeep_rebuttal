@@ -1,0 +1,83 @@
+{
+  "timestamp": "20250727_212238",
+  "experiment_type": "gga_feature_ablation",
+  "feature_configs": {
+    "SAS_only": {
+      "features": [
+        "gass_score"
+      ],
+      "description": "单独评估语义对齐的检测能力"
+    },
+    "PRD_only": {
+      "features": [
+        "prd_score"
+      ],
+      "description": "单独评估注意力路径过度依赖的检测能力"
+    },
+    "GGA_Core": {
+      "features": [
+        "gass_score",
+        "prd_score"
+      ],
+      "description": "机制特征组合，具备解释性和一定检测能力"
+    },
+    "GGA_Full": {
+      "features": [
+        "gass_score",
+        "prd_score",
+        "output_length",
+        "repetition_score",
+        "avg_word_length",
+        "unique_word_ratio",
+        "has_ans_prefix",
+        "comma_count",
+        "question_mark_count"
+      ],
+      "description": "主方法，检测性能最佳，兼具解释性与实用性"
+    }
+  },
+  "results": {
+    "SAS_only": {
+      "auc": 0.6323892531178341,
+      "f1_score": 0.17632156730282048,
+      "precision": 0.10028818443804034,
+      "recall": 0.729050279329609,
+      "accuracy": 0.509701417512818,
+      "threshold": 0.5299999999999998,
+      "feature_count": 1
+    },
+    "PRD_only": {
+      "auc": 0.5501684268880243,
+      "f1_score": 0.14476756527276588,
+      "precision": 0.0853566958698373,
+      "recall": 0.4762569832402235,
+      "accuracy": 0.5949532522368554,
+      "threshold": 0.5299999999999998,
+      "feature_count": 1
+    },
+    "GGA_Core": {
+      "auc": 0.6574301191818435,
+      "f1_score": 0.17804754678806273,
+      "precision": 0.1012464046021093,
+      "recall": 0.7374301675977654,
+      "accuracy": 0.509902483160752,
+      "threshold": 0.46999999999999986,
+      "feature_count": 2
+    },
+    "GGA_Full": {
+      "auc": 0.8327849473688669,
+      "f1_score": 0.5003344481605351,
+      "precision": 0.48010269576379977,
+      "recall": 0.5223463687150838,
+      "accuracy": 0.9249019804966322,
+      "threshold": 0.6599999999999997,
+      "feature_count": 9
+    }
+  },
+  "summary": {
+    "best_auc": "GGA_Full",
+    "best_f1": "GGA_Full",
+    "best_precision": "GGA_Full",
+    "best_recall": "GGA_Core"
+  }
+}

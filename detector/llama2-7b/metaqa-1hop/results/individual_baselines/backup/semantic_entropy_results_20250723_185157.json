@@ -1,0 +1,37 @@
+{
+  "Semantic Entropy": {
+    "auc": 0.4509803921568627,
+    "threshold": 0.4755102040816327,
+    "precision": 0.2631578947368421,
+    "recall": 0.29411764705882354,
+    "f1_score": 0.2777777777777778,
+    "accuracy": 0.48,
+    "classification_report": {
+      "0": {
+        "precision": 0.6129032258064516,
+        "recall": 0.5757575757575758,
+        "f1-score": 0.59375,
+        "support": 33.0
+      },
+      "1": {
+        "precision": 0.2631578947368421,
+        "recall": 0.29411764705882354,
+        "f1-score": 0.2777777777777778,
+        "support": 17.0
+      },
+      "accuracy": 0.48,
+      "macro avg": {
+        "precision": 0.4380305602716469,
+        "recall": 0.43493761140819964,
+        "f1-score": 0.4357638888888889,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.4939898132427844,
+        "recall": 0.48,
+        "f1-score": 0.4863194444444444,
+        "support": 50.0
+      }
+    }
+  }
+}

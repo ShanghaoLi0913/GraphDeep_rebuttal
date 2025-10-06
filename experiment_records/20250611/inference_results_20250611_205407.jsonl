@@ -1,1 +1,0 @@
-{"config": {"timestamp": "20250611_205407", "model": "meta-llama/Llama-2-7b-chat-hf", "num_samples": 3, "data_source": "trimming_results_20250609_141823.jsonl", "device": "cuda", "batch_size": 2}}

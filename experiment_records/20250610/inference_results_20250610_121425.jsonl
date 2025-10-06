@@ -1,2 +1,0 @@
-{"config": {"timestamp": "20250610_121425", "model": "meta-llama/Llama-2-7b-chat-hf", "num_samples": 1, "data_source": "trimming_results_20250609_141823.jsonl", "device": "cuda", "batch_size": 4}}
-{"question": "what movies did Temuera Morrison act in", "answer": "once were warriors", "golden_answers": ["once were warriors", "tracker", "river queen"], "ecs_score": 0.16151118278503418, "input_length": 251, "entity_count": 121, "relation_count": 74, "answer_position": [62, 65], "is_correct": true, "sample_id": 0, "timestamp": "2025-06-10 12:14:29"}

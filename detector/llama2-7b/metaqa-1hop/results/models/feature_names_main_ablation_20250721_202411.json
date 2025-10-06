@@ -1,0 +1,11 @@
+[
+  "gass_score",
+  "prd_score",
+  "output_length",
+  "repetition_score",
+  "avg_word_length",
+  "unique_word_ratio",
+  "has_ans_prefix",
+  "comma_count",
+  "question_mark_count"
+]

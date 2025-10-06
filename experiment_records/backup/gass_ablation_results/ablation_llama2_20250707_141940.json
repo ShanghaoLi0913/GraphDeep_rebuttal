@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-07-07T14:18:34.981861",
+  "model_name": "meta-llama/Llama-2-7b-chat-hf",
+  "num_samples": 3,
+  "variants": {
+    "original": {
+      "name": "original",
+      "description": "Original GASS implementation",
+      "correct_scores": [
+        0.16362703763521635,
+        0.1662445068359375,
+        0.1628936767578125
+      ],
+      "hallucination_scores": [],
+      "statistics": {
+        "correct_mean": 0.16425507374298878,
+        "correct_std": 0.001438248371600275,
+        "hallucination_mean": 0.0,
+        "hallucination_std": 0.0,
+        "difference": 0.16425507374298878,
+        "is_fixed": null,
+        "num_correct": 3,
+        "num_hallucination": 0
+      }
+    },
+    "semantic_consistency": {
+      "name": "semantic_consistency",
+      "description": "Semantic consistency GASS against smart hallucinations",
+      "correct_scores": [
+        0.11756270971053687,
+        0.12678451538085939,
+        0.11853332519531252
+      ],
+      "hallucination_scores": [],
+      "statistics": {
+        "correct_mean": 0.12096018342890293,
+        "correct_std": 0.0041374433023110046,
+        "hallucination_mean": 0.0,
+        "hallucination_std": 0.0,
+        "difference": 0.12096018342890293,
+        "is_fixed": null,
+        "num_correct": 3,
+        "num_hallucination": 0
+      }
+    },
+    "contrastive_validation": {
+      "name": "contrastive_validation",
+      "description": "Contrastive validation GASS with negative examples",
+      "correct_scores": [
+        0.518403566800631,
+        0.49923171997070315,
+        0.5311233520507812
+      ],
+      "hallucination_scores": [],
+      "statistics": {
+        "correct_mean": 0.5162528796073718,
+        "correct_std": 0.013108219831723986,
+        "hallucination_mean": 0.0,
+        "hallucination_std": 0.0,
+        "difference": 0.5162528796073718,
+        "is_fixed": null,
+        "num_correct": 3,
+        "num_hallucination": 0
+      }
+    },
+    "MultiLayer-Norm-Contrast": {
+      "name": "MultiLayer-Norm-Contrast",
+      "description": "Multi-layer fusion with normalization and contrast",
+      "correct_scores": [
+        0.5004184428485245,
+        0.49226021606187204,
+        0.5141960127532785
+      ],
+      "hallucination_scores": [],
+      "statistics": {
+        "correct_mean": 0.5022915572212251,
+        "correct_std": 0.009052668564631201,
+        "hallucination_mean": 0.0,
+        "hallucination_std": 0.0,
+        "difference": 0.5022915572212251,
+        "is_fixed": null,
+        "num_correct": 3,
+        "num_hallucination": 0
+      }
+    },
+    "Rank-Based-TopK": {
+      "name": "Rank-Based-TopK",
+      "description": "Rank-based top-K similarity aggregation",
+      "correct_scores": [
+        0.5985248272235577,
+        0.6125274658203125,
+        0.5732408796037947
+      ],
+      "hallucination_scores": [],
+      "statistics": {
+        "correct_mean": 0.594764390882555,
+        "correct_std": 0.01625760591729345,
+        "hallucination_mean": 0.0,
+        "hallucination_std": 0.0,
+        "difference": 0.594764390882555,
+        "is_fixed": null,
+        "num_correct": 3,
+        "num_hallucination": 0
+      }
+    }
+  },
+  "sample_results": [
+    {
+      "question": "what does Grégoire Colin appear in",
+      "predicted_answer": "grégoire colin appears in \"before the rain\".",
+      "golden_answers": [
+        "before the rain"
+      ],
+      "is_correct": true,
+      "output_text": " ans: Grégoire Colin appears in \"Before the Rain\".",
+      "answer_start_idx": 343,
+      "answer_end_idx": 356,
+      "variant_scores": {
+        "original": 0.16362703763521635,
+        "semantic_consistency": 0.11756270971053687,
+        "contrastive_validation": 0.518403566800631,
+        "MultiLayer-Norm-Contrast": 0.5004184428485245,
+        "Rank-Based-TopK": 0.5985248272235577
+      }
+    },
+    {
+      "question": "Joe Thomas appears in which movies",
+      "predicted_answer": "joe thomas appears in \"the inbetweeners movie\" and \"the inbetweeners 2\".",
+      "golden_answers": [
+        "the inbetweeners movie",
+        "the inbetweeners 2"
+      ],
+      "is_correct": true,
+      "output_text": " ans: Joe Thomas appears in \"The Inbetweeners Movie\" and \"The Inbetweeners 2\".",
+      "answer_start_idx": 352,
+      "answer_end_idx": 372,
+      "variant_scores": {
+        "original": 0.1662445068359375,
+        "semantic_consistency": 0.12678451538085939,
+        "contrastive_validation": 0.49923171997070315,
+        "MultiLayer-Norm-Contrast": 0.49226021606187204,
+        "Rank-Based-TopK": 0.6125274658203125
+      }
+    },
+    {
+      "question": "what films did Michelle Trachtenberg star in",
+      "predicted_answer": "harriet the spy",
+      "golden_answers": [
+        "inspector gadget",
+        "black christmas",
+        "ice princess",
+        "harriet the spy",
+        "the scribbler"
+      ],
+      "is_correct": true,
+      "output_text": " ans: Harriet the Spy, 17 Again, Black Christmas, The Scribbler",
+      "answer_start_idx": 349,
+      "answer_end_idx": 369,
+      "variant_scores": {
+        "original": 0.1628936767578125,
+        "semantic_consistency": 0.11853332519531252,
+        "contrastive_validation": 0.5311233520507812,
+        "MultiLayer-Norm-Contrast": 0.5141960127532785,
+        "Rank-Based-TopK": 0.5732408796037947
+      }
+    }
+  ]
+}

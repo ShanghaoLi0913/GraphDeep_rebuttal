@@ -1,0 +1,21 @@
+[
+  "gass_score",
+  "prd_score",
+  "balanced_calibrated_gass",
+  "tus_score",
+  "gass_jsd_score",
+  "gass_prd_ratio",
+  "gass_tus_diff",
+  "balanced_original_gass_diff",
+  "output_length",
+  "repetition_score",
+  "avg_word_length",
+  "unique_word_ratio",
+  "has_ans_prefix",
+  "comma_count",
+  "question_mark_count",
+  "question_length",
+  "question_has_what",
+  "question_has_which",
+  "question_has_who"
+]

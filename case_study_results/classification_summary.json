@@ -1,0 +1,10 @@
+{
+  "total_samples": 5000,
+  "quadrant_counts": {
+    "Q1_high_prd_high_sas": 966,
+    "Q2_low_prd_high_sas": 1534,
+    "Q3_low_prd_low_sas": 966,
+    "Q4_high_prd_low_sas": 1534
+  },
+  "timestamp": "2025-07-27T21:05:32.179959"
+}

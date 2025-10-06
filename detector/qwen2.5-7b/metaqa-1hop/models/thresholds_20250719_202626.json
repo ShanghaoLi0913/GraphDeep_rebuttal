@@ -1,0 +1,7 @@
+{
+  "VotingEnsemble": 0.6053916480242364,
+  "Optimized_XGBoost": 0.849507749080658,
+  "Optimized_RandomForest": 0.5894618538567842,
+  "Optimized_LightGBM": 0.6074319987639671,
+  "Optimized_LogisticRegression": 0.7411380912984572
+}

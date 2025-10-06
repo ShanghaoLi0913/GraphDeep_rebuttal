@@ -1,0 +1,82 @@
+{
+  "VotingEnsemble": {
+    "auc": 0.8829896105483768,
+    "optimal_threshold": 0.654370424513069,
+    "default_results": {
+      "precision": 0.37196969696969695,
+      "recall": 0.6857541899441341,
+      "f1_score": 0.4823182711198428,
+      "accuracy": 0.8940384035387554
+    },
+    "optimal_results": {
+      "precision": 0.5490753911806543,
+      "recall": 0.5391061452513967,
+      "f1_score": 0.5440451021846371,
+      "accuracy": 0.9349552628933346
+    }
+  },
+  "Optimized_XGBoost": {
+    "auc": 0.8704774990029345,
+    "optimal_threshold": 0.7683405876159668,
+    "default_results": {
+      "precision": 0.1900690562315028,
+      "recall": 0.8072625698324022,
+      "f1_score": 0.3076923076923077,
+      "accuracy": 0.7385141248617674
+    },
+    "optimal_results": {
+      "precision": 0.40273972602739727,
+      "recall": 0.6159217877094972,
+      "f1_score": 0.4870237437879624,
+      "accuracy": 0.9066050065346336
+    }
+  },
+  "Optimized_RandomForest": {
+    "auc": 0.883790591454953,
+    "optimal_threshold": 0.5863168925853363,
+    "default_results": {
+      "precision": 0.4701240135287486,
+      "recall": 0.5824022346368715,
+      "f1_score": 0.5202744853399875,
+      "accuracy": 0.9226902583693576
+    },
+    "optimal_results": {
+      "precision": 0.5625,
+      "recall": 0.5027932960893855,
+      "f1_score": 0.5309734513274337,
+      "accuracy": 0.9360611239569719
+    }
+  },
+  "Optimized_LightGBM": {
+    "auc": 0.8832161819325093,
+    "optimal_threshold": 0.5476363403702849,
+    "default_results": {
+      "precision": 0.4549402823018458,
+      "recall": 0.585195530726257,
+      "f1_score": 0.5119120342089187,
+      "accuracy": 0.9196742736503468
+    },
+    "optimal_results": {
+      "precision": 0.49559748427672956,
+      "recall": 0.5502793296089385,
+      "f1_score": 0.5215089344804765,
+      "accuracy": 0.9273147682718408
+    }
+  },
+  "Optimized_LogisticRegression": {
+    "auc": 0.8545221076177008,
+    "optimal_threshold": 0.7528584112158988,
+    "default_results": {
+      "precision": 0.24161073825503357,
+      "recall": 0.7039106145251397,
+      "f1_score": 0.35974304068522484,
+      "accuracy": 0.8196441138031567
+    },
+    "optimal_results": {
+      "precision": 0.42891566265060244,
+      "recall": 0.4972067039106145,
+      "f1_score": 0.46054333764553684,
+      "accuracy": 0.9161556248115009
+    }
+  }
+}

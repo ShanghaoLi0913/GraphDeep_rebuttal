@@ -1,0 +1,15 @@
+{
+  "timestamp": "20250721_195437",
+  "scaler_path": "/mnt/d/experiments/GraphDeEP/detector/llama2-7b/metaqa-1hop/results/gass_prd_only_results/../models/scaler_prd_sas_20250721_195437.joblib",
+  "feature_names_path": "/mnt/d/experiments/GraphDeEP/detector/llama2-7b/metaqa-1hop/results/gass_prd_only_results/../models/feature_names_prd_sas_20250721_195437.json",
+  "threshold_path": "/mnt/d/experiments/GraphDeEP/detector/llama2-7b/metaqa-1hop/results/gass_prd_only_results/../models/thresholds_prd_sas_20250721_195437.json",
+  "model_paths": {
+    "VotingEnsemble": "/mnt/d/experiments/GraphDeEP/detector/llama2-7b/metaqa-1hop/results/gass_prd_only_results/../models/VotingEnsemble_prd_sas_20250721_195437.joblib",
+    "Optimized_XGBoost": "/mnt/d/experiments/GraphDeEP/detector/llama2-7b/metaqa-1hop/results/gass_prd_only_results/../models/Optimized_XGBoost_prd_sas_20250721_195437.joblib",
+    "Optimized_RandomForest": "/mnt/d/experiments/GraphDeEP/detector/llama2-7b/metaqa-1hop/results/gass_prd_only_results/../models/Optimized_RandomForest_prd_sas_20250721_195437.joblib",
+    "Optimized_LightGBM": "/mnt/d/experiments/GraphDeEP/detector/llama2-7b/metaqa-1hop/results/gass_prd_only_results/../models/Optimized_LightGBM_prd_sas_20250721_195437.joblib",
+    "Optimized_LogisticRegression": "/mnt/d/experiments/GraphDeEP/detector/llama2-7b/metaqa-1hop/results/gass_prd_only_results/../models/Optimized_LogisticRegression_prd_sas_20250721_195437.joblib"
+  },
+  "best_model": "VotingEnsemble",
+  "best_auc": 0.7424707585533398
+}

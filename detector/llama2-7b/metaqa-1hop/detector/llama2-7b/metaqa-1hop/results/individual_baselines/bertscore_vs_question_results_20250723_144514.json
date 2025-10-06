@@ -1,0 +1,37 @@
+{
+  "BERTScore_vs_Question": {
+    "auc": 0.857397504456328,
+    "threshold": 0.5408163265306123,
+    "precision": 1.0,
+    "recall": 0.5882352941176471,
+    "f1_score": 0.7407407407407407,
+    "accuracy": 0.86,
+    "classification_report": {
+      "0": {
+        "precision": 0.825,
+        "recall": 1.0,
+        "f1-score": 0.9041095890410958,
+        "support": 33.0
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 0.5882352941176471,
+        "f1-score": 0.7407407407407407,
+        "support": 17.0
+      },
+      "accuracy": 0.86,
+      "macro avg": {
+        "precision": 0.9125,
+        "recall": 0.7941176470588236,
+        "f1-score": 0.8224251648909182,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.8844999999999998,
+        "recall": 0.86,
+        "f1-score": 0.848564180618975,
+        "support": 50.0
+      }
+    }
+  }
+}

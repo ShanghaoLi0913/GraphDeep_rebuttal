@@ -1,0 +1,18 @@
+{
+  "timestamp": "20250723_131929",
+  "scaler_path": "/mnt/d/experiments/GraphDeEP/detector/llama2-7b/metaqa-1hop/results/baseline_complete_test/../models/baseline_scaler_20250723_131929.joblib",
+  "feature_names": [
+    "perplexity",
+    "token_confidence",
+    "max_token_probability",
+    "bertscore_question_similarity",
+    "entity_question_coverage",
+    "nli_contradiction_score",
+    "uncertainty_quantification",
+    "perplexity_confidence_ratio"
+  ],
+  "thresholds": {},
+  "model_paths": {},
+  "best_model": "Individual baselines only",
+  "best_test_auc": 0.0
+}

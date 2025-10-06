@@ -1,0 +1,37 @@
+{
+  "Uncertainty_Quantification": {
+    "auc": 0.5,
+    "threshold": 0.5,
+    "precision": 0.14666666666666667,
+    "recall": 1.0,
+    "f1_score": 0.2558139534883721,
+    "accuracy": 0.14666666666666667,
+    "classification_report": {
+      "0": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 256.0
+      },
+      "1": {
+        "precision": 0.14666666666666667,
+        "recall": 1.0,
+        "f1-score": 0.2558139534883721,
+        "support": 44.0
+      },
+      "accuracy": 0.14666666666666667,
+      "macro avg": {
+        "precision": 0.07333333333333333,
+        "recall": 0.5,
+        "f1-score": 0.12790697674418605,
+        "support": 300.0
+      },
+      "weighted avg": {
+        "precision": 0.02151111111111111,
+        "recall": 0.14666666666666667,
+        "f1-score": 0.03751937984496124,
+        "support": 300.0
+      }
+    }
+  }
+}

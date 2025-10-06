@@ -1,0 +1,37 @@
+{
+  "NLI_based_Contradiction_Detection": {
+    "auc": 0.5614973262032086,
+    "threshold": 0.3448979591836735,
+    "precision": 0.3611111111111111,
+    "recall": 0.7647058823529411,
+    "f1_score": 0.49056603773584906,
+    "accuracy": 0.46,
+    "classification_report": {
+      "0": {
+        "precision": 0.7142857142857143,
+        "recall": 0.30303030303030304,
+        "f1-score": 0.425531914893617,
+        "support": 33.0
+      },
+      "1": {
+        "precision": 0.3611111111111111,
+        "recall": 0.7647058823529411,
+        "f1-score": 0.49056603773584906,
+        "support": 17.0
+      },
+      "accuracy": 0.46,
+      "macro avg": {
+        "precision": 0.5376984126984127,
+        "recall": 0.533868092691622,
+        "f1-score": 0.45804897631473307,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.5942063492063493,
+        "recall": 0.46,
+        "f1-score": 0.4476435166599759,
+        "support": 50.0
+      }
+    }
+  }
+}
